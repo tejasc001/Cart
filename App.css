@@ -1,0 +1,34 @@
+.app {
+  padding: 20px;
+}
+
+.service-card {
+  cursor: grab;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.service-card:active {
+  cursor: grabbing;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.drop-zone {
+  border: 2px dashed #007bff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+Table {
+  margin-top: 20px;
+}
+.header-navbar {
+  border-bottom: 5px solid;
+  border-image: linear-gradient(135deg, #6a11cb, #2575fc) 1;
+}
